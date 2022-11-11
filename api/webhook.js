@@ -12,7 +12,13 @@ export default async (request, response) => {
         text,
       } = body.message
       const character_key = text.toLocaleLowerCase()
-      if (NAMES.includes(character_key)) {
+      if (text === '/start') {
+        await bot.sendMessage(
+          id,
+          "напиши название города - и я кину тебе рефы",
+          { parse_mode: "Markdown" }
+        )
+      } else if (NAMES.includes(character_key)) {
         for (let item of CHARACTER_REFS[character_key]) {
           await bot.sendPhoto({
             id,
