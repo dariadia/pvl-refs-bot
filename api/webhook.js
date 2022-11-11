@@ -1,6 +1,6 @@
 process.env.NTBA_FIX_319 = "test"
 import TelegramBot from "node-telegram-bot-api"
-import { NAMES } from "./db.js"
+import { NAMES, CHARACTER_REFS } from "./db.js"
 
 export default async (request, response) => {
   try {
@@ -11,9 +11,15 @@ export default async (request, response) => {
         chat: { id },
         text,
       } = body.message
-      const match = NAMES[text]
-      if (match) {
-        await bot.sendMessage(id, match, { parse_mode: "Markdown" })
+      const character_key = text.toLocaleLowerCase()
+      if (NAMES.includes(character_key)) {
+        for (let item of CHARACTER_REFS[character_key]) {
+          await bot.sendPhoto({
+            id,
+            caption: text,
+            photo: `../assets/${item}`,
+          })
+        }
       } else
         await bot.sendMessage(
           id,
