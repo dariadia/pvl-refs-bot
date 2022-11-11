@@ -22,14 +22,10 @@ export default async (request, response) => {
         for (let item of CHARACTER_REFS[character_key]) {
           await bot.sendMessage(
             id,
-            item,
+            text,
             { parse_mode: "Markdown" }
           )
-          await bot.sendPhoto({
-            id,
-            caption: text,
-            photo: `../assets/${item}`,
-          })
+          await bot.sendPhoto(id, `../assets/${item}`)
         }
       } else
         await bot.sendMessage(
