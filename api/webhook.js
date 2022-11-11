@@ -12,7 +12,7 @@ export default async (request, response) => {
         text,
       } = body.message
       const character_key = text.toLocaleLowerCase()
-      if (text === '/start') {
+      if (['/start', '/info'].includes(text)) {
         await bot.sendMessage(
           id,
           "напиши название города - и я кину тебе рефы",
