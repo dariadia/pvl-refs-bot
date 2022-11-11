@@ -138,7 +138,7 @@ export const CHARACTER_REFS = {
   'кампала': ['jHbmyDmSw9I.jpg'],
   'гатчина': ['гатчина.png', '2022-11-11 16.20.30.jpg', 'IMG_4479.PNG'],
   'мурино': ['2022-11-11 21.41.56.jpg'],
-  'калининград': ['53i6biWZ9O0.jpg', 'owWAXHy1DD8.jpg', 'калининград.png', 'ZYnWOoB9Gyc.jpg', '80_roxIEpjk.jpg', 'GpxNvdQYHVo.jpg', 'jL1OPpj2fZU.jpg', 'QrY8SZNefsc.jpg', 'SzKLa_zcrhE.jpg', 'IMG_4479.PNG'],
+  'калининград': ['53i6biWZ9O0.jpg', 'owWAXHy1DD8.jpg', 'калининград.png', 'ZYnWOoB9Gyc.jpg', '80_roxIEpjk.jpg', 'GpxNvdQYHVo.jpg', 'jL1OPpj2fZU.jpg', 'SzKLa_zcrhE.jpg', 'IMG_4479.PNG'],
   'архангельск': ['14qSd8a7oaA.jpg', 'aLkmc18Ihzg.jpg', 'AUiBuiPuXAY.jpg', 'yJEZAFSQ798.jpg', 'PGt9DuXHhZ8 (1).jpg', 'IMG_4479.PNG'],
   'мурманск': ['SKBFQgPlsKs.jpg', '3repp9vOsdM 16.25.50.jpg', 'bFpbwjuE-NI 16.28.34.jpg', 'HOVy5xQVMM8.jpg', 'iySxwlXX7MQ.jpg', 'MD0i_f8oDTY.jpg', 'ogNbJqQrsLE.jpg', 'PGt9DuXHhZ8 (1).jpg', 'S0sS1BaonBw (1).jpg', 'Sw2aGo4vUdU (1).jpg', 'IMG_4479.PNG'],
   'вологда': ['IMG_4479.PNG'],
