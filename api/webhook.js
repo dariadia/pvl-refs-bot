@@ -20,11 +20,6 @@ export default async (request, response) => {
         )
       } else if (NAMES.includes(character_key)) {
         for (let item of CHARACTER_REFS[character_key]) {
-          await bot.sendMessage(
-            id,
-            text,
-            { parse_mode: "Markdown" }
-          )
           await bot.sendPhoto(id, `../assets/${item}`)
         }
       } else
