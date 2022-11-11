@@ -20,7 +20,7 @@ export default async (request, response) => {
         )
       } else if (NAMES.includes(character_key)) {
         for (let item of CHARACTER_REFS[character_key]) {
-          await bot.sendPhoto(id, `../assets/${item}`)
+          await bot.sendPhoto(id, `https://pvl-refs-bot.vercel.app/assets/${item}`)
         }
       } else
         await bot.sendMessage(
