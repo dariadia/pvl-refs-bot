@@ -13,11 +13,13 @@ export default async (request, response) => {
       } = body.message
       const character_key = text.toLocaleLowerCase()
       if (NAMES.includes(character_key)) {
-        await bot.sendPhoto({
-          id,
-          caption: text,
-          photo: CHARACTER_REFS[character_key]
-      })
+        for (let item of CHARACTER_REFS[character_key]) {
+          await bot.sendPhoto({
+            id,
+            caption: text,
+            photo: `../assets/${item}`,
+          })
+        }
       } else
         await bot.sendMessage(
           id,
