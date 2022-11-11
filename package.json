@@ -1,0 +1,16 @@
+{
+  "name": "pvl-refs-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "dana",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.51.0"
+  },
+  "type": "module"
+}
