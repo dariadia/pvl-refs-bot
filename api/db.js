@@ -132,7 +132,10 @@ export const NAMES = [
   'пекин',
   'кампала',
   'дербент',
-  'пётр 1'
+  'пётр 1',
+  'ереван',
+  'ташкент',
+  'астана'
 ]
 
 export const CHARACTER_REFS = {
@@ -160,7 +163,7 @@ export const CHARACTER_REFS = {
   'великий новгород': ['HePbcl4D8aY.jpg', '3sZalIWZJmg.jpg', '8YZhyxhZnWA.jpg', 'aMRlwx-Rcqw.jpg', 'CYfPp7dkwFA.jpg', 'upioVZkrXxM.jpg', 'WLLWcUtVPLI.jpg', 'xljQb6cyT0w.jpg', 'IMG_4479.PNG'],
   'новгород великий': ['HePbcl4D8aY.jpg', '3sZalIWZJmg.jpg', '8YZhyxhZnWA.jpg', 'aMRlwx-Rcqw.jpg', 'CYfPp7dkwFA.jpg', 'upioVZkrXxM.jpg', 'WLLWcUtVPLI.jpg', 'xljQb6cyT0w.jpg', 'IMG_4479.PNG'],
   'нарьян-мар': ['3repp9vOsdM 16.25.50.jpg', 'S0sS1BaonBw (1).jpg', 'IMG_4479.PNG'],
-  'самара': ['6u13C8OgZiA.jpg', 'beCthHTM0to.jpg', 'IRFPHAaICHI.jpg', '2022-11-17 17.13.11.jpg'],
+  'самара': ['6u13C8OgZiA.jpg', 'beCthHTM0to.jpg', 'IRFPHAaICHI.jpg', '2022-11-17 17.13.11.jpg', 'IMG_4618.JPG'],
   'саратов': ['beCthHTM0to.jpg', 'IRFPHAaICHI.jpg'],
   'казань': ['3jvVApWQkGs.jpg', '8hLYxHpb3lk.jpg', '8042KKyuCnQ.jpg', 'B9HOgswRT7s.jpg', 'fAepqAKQx9g.jpg', 'iJY28RjC3_k.jpg', 'JZywcuqD-qc.jpg', 'lF2k4huWOPc.jpg', 'T5o8EpAu5eQ.jpg', 'MOmC_C2Pbp0.jpg', 'se06ruGdryo.jpg', '2022-11-17 17.13.11.jpg'],
   'уфа': ['уфа.jpg', '_3MU8P2648o.jpg', '2RV3ek1pz2g.jpg', 'bExbPaq6aok.jpg', 'hy1gX82kBb4.jpg', 'MOmC_C2Pbp0.jpg', 'rfl-KN1Uwc0.jpg', 'wqmSObPWVUQ.jpg', 'xZp8n5GzShM.jpg'],
@@ -266,4 +269,7 @@ export const CHARACTER_REFS = {
   'хельсинки': ['ylfMZXB_V6Q.jpg', 'hB8W88_u5oQ.jpg', 'jF2RQaXtwoQ.jpg', 'PNG image.png'],
   'стамбул': ['no-foto.jpg'],
   'пекин': ['d5c6572235c270a440469ecd08136f68.jpg', 'HUHfQriKU6M.jpg', 'uKeWWkEh-Xs.jpg', 'xG0uL3-KORo.jpg'],
+  'ереван': ['photo_2022-11-20 08.25.28.jpeg'],
+  'астана': ['photo_2022-11-20 08.25.33.jpeg'],
+  'ташкент': ['photo_2022-11-20 08.25.31.jpeg'],
 }
